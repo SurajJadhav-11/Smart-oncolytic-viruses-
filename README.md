@@ -1,4 +1,4 @@
-# Smart-oncolytic-viruses-
+8# Smart-oncolytic-viruses-
 # Dual-Control Safety Architecture for KRAS-Targeted Oncolytic Virotherapy
 
 ## Project Overview
@@ -49,4 +49,4 @@ The simulation scripts included here model the following:
 ## Research & Development
 This project is being developed as part of a transition toward high-level R&D in synthetic biology and oncology. 
 
-**Contact:** [Suraj SureshJadhav]
+**Contact:** [Suraj Suresh Jadhav]
