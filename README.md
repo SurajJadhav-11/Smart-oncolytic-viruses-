@@ -1,4 +1,4 @@
-8# Smart-oncolytic-viruses-
+# Smart-oncolytic-viruses-
 # Dual-Control Safety Architecture for KRAS-Targeted Oncolytic Virotherapy
 
 ## Project Overview
