@@ -1,0 +1,25 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Simulation parameters: 72-hour window
+time = np.linspace(0, 72, 100) 
+
+# Logic: Standard OV (fast start, but quick immune clearance/exhaustion)
+std_ov = 10 * (1 - np.exp(-0.1 * time)) * np.exp(-0.02 * time)
+
+# Logic: Your 3-Lock OV (slower activation due to safety locks, but sustained efficacy)
+smart_ov = 8 * (1 - np.exp(-0.05 * time)) * np.exp(-0.005 * time)
+
+plt.figure(figsize=(10, 6))
+plt.plot(time, std_ov, 'r--', label='Standard Oncolytic Virus')
+plt.plot(time, smart_ov, 'g-', linewidth=2, label='3-Lock "Smart" OV Architecture')
+
+plt.title('Simulated Viral Load in KRAS-Mutant Cell Population', fontsize=14)
+plt.xlabel('Time (Hours Post-Infection)', fontsize=12)
+plt.ylabel('Viral Concentration (Normalized)', fontsize=12)
+plt.grid(True, linestyle=':', alpha=0.6)
+plt.legend()
+
+# Save the result to your results folder
+plt.savefig('ov_simulation_result.png')
+print("Simulation complete. Graph saved as ov_simulation_result.png")
