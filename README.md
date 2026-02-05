@@ -38,10 +38,6 @@ The simulation scripts included here model the following:
   - `Biopython` (Sequence analysis placeholders)
 
 ## Current Status
-- [x] Conceptual Design & Logic Flow
-- [x] Mathematical Modeling of 3-Lock Logic
-- [ ] Refinement of Stochastic Simulation Parameters
-- [ ] Provisional Patent Filing (In Progress)
  * [x] Conceptual Design & Logic Flow
  * [x] Mathematical Modeling of 3-Lock Logic
  * [x] Refinement of Stochastic Simulation Parameters
