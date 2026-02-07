@@ -26,3 +26,9 @@ This log tracks the computational milestones and logic validation phases of the 
 
 ---
 *Next Week's Focus: Advanced Sensitivity Visualizations & OIST Researcher Outreach.*
+
+### Feb 7: Documentation Audit & IP Hygiene
+* Conducted a thorough review of public repository files to ensure maximum transparency for recruiters while maintaining strict protection of proprietary genetic sequences.
+* Verified technical terminology across README and results sections to align with industry standards for oncolytic virotherapy.
+* Audited the "Lite" simulation logic to ensure it accurately represents the project's mathematical foundation without disclosing confidential variables.
+
