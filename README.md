@@ -12,7 +12,7 @@ Current oncolytic therapies face two primary hurdles:
 ## The 3-Lock Architecture (Patent Pending)
 This project simulates a modular safety system to solve these challenges:
 
-###The Environmental Lock (Hardware-Level Activation)
+##The Environmental Lock (Hardware-Level Activation)
    * Mechanism: Protease-responsive surface modification.
    * Function: Utilizes a tumor-specific linker that ensures viral activation is restricted to the acidic, enzyme-rich tumor microenvironment, protecting the payload during systemic circulation.
  * The Transcriptional Lock (Software-Level Control)
