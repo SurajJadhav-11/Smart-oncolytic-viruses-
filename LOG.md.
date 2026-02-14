@@ -32,3 +32,6 @@ This log tracks the computational milestones and logic validation phases of the 
 * Verified technical terminology across README and results sections to align with industry standards for oncolytic virotherapy.
 * Audited the "Lite" simulation logic to ensure it accurately represents the project's mathematical foundation without disclosing confidential variables.
 
+### Feb 14: Security Protocol & Policy Implementation
+* Established a formal Security Policy (SECURITY.md) to manage vulnerability reporting and IP protection.
+* Conducted a pre-midnight audit of public repository accessibility.
