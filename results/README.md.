@@ -22,7 +22,8 @@ This folder contains the quantitative validation of the 3-Lock Smart Oncolytic V
 > Data Interpretation (Graph: sensitivity_results.png)
 >  * The "Safety Envelope": The multiple trajectories on the graph represent the "Safety Envelope." Even under "worst-case" scenarios—where cellular defenses are at their weakest (Decay Rate: 0.2)—the virus consistently crosses the Safety Clearance Threshold before off-target replication becomes significant.
 >  * Clinical Significance: This demonstrates that the 3-Lock architecture possesses a wide therapeutic window and is not fragile to patient-specific physiological fluctuations.
-> [IMAGE PENDING: Sensitivity results to be uploaded upon simulation completion]
+> ![Sensitivity Analysis Graph]
+   (sensitivity_results.png)
 > 
 ---
 *Note: These simulations use stochastic parameters to model real-world biological variability. Detailed genetic sequences and proprietary decay constants are maintained in the private research vault.*
