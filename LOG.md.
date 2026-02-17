@@ -35,3 +35,9 @@ This log tracks the computational milestones and logic validation phases of the 
 ### Feb 14: Security Protocol & Policy Implementation
 * Established a formal Security Policy (SECURITY.md) to manage vulnerability reporting and IP protection.
 * Conducted a pre-midnight audit of public repository accessibility.
+
+### Feb 17: Mobile-Cloud Simulation & Data Validation
+* Successfully bypassed hardware limitations by executing stochastic models via Google Colab.
+* Generated and analyzed the Sensitivity Analysis graph for Lock 2.
+* Validated that the "Safety Envelope" holds even at a minimum decay constant ($\lambda$) of 0.2.
+* Uploaded Phase 3 visual evidence to the public repository.
