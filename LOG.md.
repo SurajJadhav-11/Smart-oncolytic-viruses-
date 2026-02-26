@@ -41,3 +41,15 @@ This log tracks the computational milestones and logic validation phases of the 
 * Generated and analyzed the Sensitivity Analysis graph for Lock 2.
 * Validated that the "Safety Envelope" holds even at a minimum decay constant ($\lambda$) of 0.2.
 * Uploaded Phase 3 visual evidence to the public repository.
+
+### February 26, 2026: Simulation Visualization & Architecture Validation
+
+**Accomplishments:**
+* **Integrated Viral Load Simulations:** Added `ov_simulation_results.png` to the results folder. This compares the "3-Lock" Smart OV architecture against standard oncolytic viruses, demonstrating a more controlled and sustained viral presence in KRAS-mutant environments.
+* **Validated Lock 2 Logic:** Added `sequestration_result.png` showing the RNA Sequestration Efficiency. The simulation confirms a high-decay rate in healthy cells (reaching the safety clearance threshold within ~5 hours) while maintaining stability in tumor cells.
+* **Directory Optimization:** Reorganized the `/results` directory to separate raw analysis from theoretical simulation outputs for better repository navigation.
+
+**Technical Notes:**
+* The sequestration model utilizes a log-scale for relative RNA concentration to highlight the 4-log safety margin achieved in healthy cell simulations.
+* Simulations were generated using Python (NumPy/Matplotlib) based on the current "Smart" OV kinetic parameters.
+
